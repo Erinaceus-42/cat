@@ -1,1 +1,24 @@
-;
+.product-more__heading {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.more-item__heading {
+  font-size: 16px;
+  line-height: 16px;
+  color: $catalog-grey;
+  text-transform: uppercase;
+}
+
+.more-table {
+  font-size: 14px;
+  line-height: 14px;
+  color: $dark-grey;
+}
+
+.gift {
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+  background-color: $bg-green;
+}
