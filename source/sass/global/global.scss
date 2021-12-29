@@ -1,0 +1,20 @@
+.visually-hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  // display: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
