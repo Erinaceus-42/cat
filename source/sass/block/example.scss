@@ -1,0 +1,52 @@
+.example {
+  background-color: $bg-dark-grey;
+
+  @media (min-width: $tablet-width) {
+    background-color: $white;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: $bg-dark-grey;
+  }
+}
+
+.example__heading {
+  font-size: 36px;
+  line-height: 40px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: $white;
+  }
+}
+
+.example__text {
+  color: $dark-grey;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.example__outro {
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.example__wrapper {
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: auto;
+    min-width: 1140px;
+  }
+}

@@ -1,0 +1,28 @@
+.page-footer {
+  background-color: $bg-light-grey;
+}
+
+.page-footer__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    margin: auto;
+    min-width: 1140px;
+  }
+}
+
+.page-footer__logo-html {
+  font-size: 16px;
+  line-height: 18px;
+  color: $dark-grey;
+}
