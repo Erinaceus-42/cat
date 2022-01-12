@@ -2,3 +2,38 @@
   font-size: 36px;
   line-height: 36px;
 }
+
+.catalog__list {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $bg-light-grey;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.catalog__item {
+  @media (min-width: $tablet-width) {
+    background-color: $bg-light-grey;
+  }
+}
+
+.catalog__wrapper {
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: auto;
+    min-width: 1140px;
+  }
+}
