@@ -1,0 +1,30 @@
+.product-item__heading {
+  font-size: 16px;
+  line-height: 20px;
+  color: $catalog-grey;
+  text-transform: uppercase;
+}
+
+.product-item__heading--more {
+  font-size: 16px;
+  line-height: 20px;
+  color: $menu-text;
+  text-transform: uppercase;
+}
+
+.product-item__text {
+  font-size: 12px;
+  line-height: 16px;
+  color: $dark-grey;
+}
+
+.product-item__button--more {
+  background-color: $light-grey;
+  color: $dark-grey;
+}
+
+.product-item__table {
+  font-size: 12px;
+  line-height: 16px;
+  color: $dark-grey;
+}

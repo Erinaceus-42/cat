@@ -41,11 +41,11 @@
         <form method="get" action="https://echo.htmlacademy.ru/">
           <fieldset class="form__start start">
             <label class="start__text" for="name">Имя:*</label>
-            <input class="start__form" name="name" value="барсик" required>
+            <input class="start__form" name="name" placeholder="барсик" required>
             <label class="start__text" for="weight">Вес (кг):*</label>
-            <input class="start__form" name="weight" value="7" required>
+            <input class="start__form" name="weight" placeholder="7" required>
             <label class="start__text" for="age">Возраст (лет):</label>
-            <input class="start__form" name="age" value="7">
+            <input class="start__form" name="age" placeholder="7">
           </fieldset>
           <fieldset class="form__goal form-goal">
             <ul class="form-goal__list goal">
@@ -65,18 +65,18 @@
             </ul>
           </fieldset>
           <fieldset class="form__owner owner">
-            <legend class="owner__legend">Контактные данные (владельца кота)</legend>
+            <legend class="owner__legend form-legend">Контактные данные (владельца кота)</legend>
             <label class="owner__text" for="email">E-mail:*</label>
-            <input class="owner__form" name="email" id="email" type="email" value="kuklachev@gmail.com" required>
+            <input class="owner__form" name="email" id="email" type="email" placeholder="kuklachev@gmail.com" required>
             <label class="owner__text" for="phone">Телефон:*</label>
-            <input class="owner__form" name="phone" id="phone" type="tel" value="8 (960) 900-60-90" required>
+            <input class="owner__form" name="phone" id="phone" type="tel" placeholder="8 (960) 900-60-90" required>
           </fieldset>
           <fieldset class="form__comment comment">
-            <legend class="comment__legend">Комментарий</legend>
-            <textarea class="comment__textarea">Расскажите обо всех повадках кота</textarea>
+            <legend class="comment__legend form-legend">Комментарий</legend>
+            <textarea class="comment__textarea" placeholder="Расскажите обо всех повадках кота"></textarea>
           </fieldset>
           <fieldset class="form__other form-other">
-            <legend class="form-other__legend">Дополнительно</legend>
+            <legend class="form-other__legend form-legend">Дополнительно</legend>
             <ul class="form-other__list other">
               <li class="other__item other-item">
                 <input class="other-item__form" name="other" type="checkbox" id="sugar" checked>
@@ -95,7 +95,7 @@
                 <label class="other-item__text" for="vitamin">Витамины</label>
               </li>
             </ul>
-            <input class="form-other__button" type="button" value="Отправить заявку">
+            <input class="form-other__button button-catalog" type="button" value="Отправить заявку">
             <p class="form-other__outro">* — Обязательные поля</p>
           </fieldset>
         </form>

@@ -7,3 +7,8 @@
   color: $black-text;
   background-color: $white;
 }
+
+.page__body {
+  min-height: 100%;
+  margin: 0;
+}
